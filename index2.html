@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multimedia Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Correct way to include your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Multimedia Website</h1>
+    <p>Simple static website with a YouTube video</p>
+    <!-- Example hyperlink -->
+    <nav>
+      <a class="btn" href="https://www.youtube.com" target="_blank" rel="noopener">Go to YouTube</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content">
+      <h2>About This Page</h2>
+      <p>
+        This is a basic static multimedia website created using HTML and CSS.
+        It includes a YouTube video embed and text content.
+      </p>
+      <p>
+        Here’s another link inside text:
+        <a href="https://example.com" target="_blank" rel="noopener">Visit Example.com</a>
+      </p>
+    </section>
+
+    <section class="video-section">
+      <h2>Featured Video</h2>
+      <div class="video-container">
+        <!-- Proper YouTube embed -->
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 My Multimedia Site</p>
+  </footer>
+</body>
+</html>
